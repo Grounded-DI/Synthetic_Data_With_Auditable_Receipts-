@@ -1,12 +1,12 @@
 # Synthetic Data With Auditable Receipts
 
-A public Grounded DI position paper on provenance-preserved reality, validation, and admission control for consequential use of synthetic or constructed information.
+Grounded DI's 2026 position paper proposes provenance receipts and admission controls for consequential use of synthetic or constructed information.
 
 ## Overview
 
 This repository contains the 2026 report [Grounded DI — Synthetic Data With Receipts](Grounded_DI_Synthetic_Data_With_Receipts_2026.pdf). It examines why synthetic data quality is only one part of the governance problem and argues for preserving the distinction among observed, human-authored, formally derived, transformed, simulated, model-generated, and unknown information.
 
-The report's central thesis is that Grounded DI's role is not to generate synthetic data. It is to govern the boundary between constructed information and consequential downstream use.
+The report proposes a control boundary that records where information came from and determines when constructed information can enter a consequential workflow.
 
 ## Core Concept: Provenance-Preserved Reality
 
@@ -16,7 +16,7 @@ The paper summarizes the commercial thesis in a concise phrase: **the receipt re
 
 ## Technical Significance
 
-A receipt or audit record cannot make synthetic data true. It can make origin attributable, generation reproducible where possible, downstream use bounded, and release rejectable when required evidence is missing. That framing connects provenance to validation and admission control rather than to a blanket claim about data quality.
+The proposed receipt records origin and generation method. Validation and admission rules can then hold a downstream release when required evidence is missing.
 
 ## Published Evidence
 
@@ -27,12 +27,10 @@ The current repository contains the report and this README. It does not contain 
 
 ## Status and Scope
 
-**Status: PUBLIC POSITION PAPER / ARCHITECTURAL RECORD.** The report does not claim that auditability makes synthetic data correct, that all synthetic datasets share the same risks, or that a production data-control system is included here.
-
-The report preserves a dated public argument about provenance and release control. It should not be read as a benchmark, certification, or deployment record.
+**Status: PUBLIC POSITION PAPER / ARCHITECTURAL RECORD.** The PDF presents the control design and its argument for preserving evidence type and origin.
 
 No open-source license file is present in this repository.
 
 ## Evaluation and Collaboration
 
-Organizations evaluating data lineage, synthetic-data governance, validation gates, or admission-control workflows may use the report as a research and proof-of-concept starting point. Grounded DI collaboration, integration, and licensing inquiries: [Grounded DI on GitHub](https://github.com/Grounded-DI).
+Organizations evaluating data lineage, synthetic-data governance, validation gates, or admission-control workflows can use the report to define a controlled technical evaluation. Grounded DI collaboration, integration, and licensing inquiries: [Grounded DI on GitHub](https://github.com/Grounded-DI).
